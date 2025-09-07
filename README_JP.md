@@ -1,8 +1,14 @@
 # PhotoVoca
 
+日本語 | [English](README.md)
+
+<p align="center">
+  <img src="assets/images/logo.png" alt="PhotoVoca Logo" width="200"/>
+</p>
+
 カメラで撮影した物体を自動認識し、英語の語彙学習に変換するFlutterアプリケーションです。
 
-**RSS Hackathon 2025 Beyond "あたりまえ"の、その先へ 優秀賞受賞作品（2025年9月7日）**
+**🏆 [RSS Hackathon 2025 Beyond "あたりまえ"の、その先へ](https://www.craftstadium.com/hackathon/rss-hackathon-2025-beyond) 優秀賞受賞作品（2025年9月7日）**
 
 ## 概要
 
@@ -54,7 +60,7 @@ PhotoVocaは、日常生活の中で目にする物体を撮影するだけで�
 
 1. リポジトリのクローン
 ```bash
-git clone https://github.com/yourusername/photovoca.git
+git clone https://github.com/rayramy04/photovoca.git
 cd photovoca
 ```
 
@@ -103,6 +109,16 @@ lib/
 5. 「クイズ」モードでフラッシュカード学習を開始
 6. カードをタップして答えを確認し、スワイプで次へ
 
+## 今後の展望
+
+- **音声読み上げ**: リスニング強化のため、認識した単語の音声読み上げ機能を追加
+- **学習履歴・統計**: 学習の進捗を可視化し、モチベーション維持をサポート
+- **複数言語対応**: 英語以外の言語学習にも展開し、グローバルなアプリへ
+- **各種学習サポート機能**:
+  - スキャンされた名詞に関連する動詞をセットでサジェスト
+  - 単語帳機能の補強
+  - カテゴリー別の語彙管理
+
 ## 今後の開発予定
 
 - 音声読み上げ機能の追加
@@ -110,10 +126,6 @@ lib/
 - カテゴリー別の語彙管理
 - 複数言語対応
 - クラウド同期機能
-
-## ライセンス
-
-このプロジェクトはMITライセンスの下で公開されています。
 
 ## 貢献
 

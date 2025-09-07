@@ -1,8 +1,14 @@
 # PhotoVoca
 
+[日本語](README_JP.md) | English
+
+<p align="center">
+  <img src="assets/images/logo.png" alt="PhotoVoca Logo" width="200"/>
+</p>
+
 A Flutter application that transforms everyday objects into English vocabulary learning opportunities through camera-based object recognition.
 
-**Excellence Award Winner at RSS Hackathon 2025 Beyond - September 7, 2025**
+**🏆 Excellence Award Winner at [RSS Hackathon 2025 Beyond "あたりまえ"の、その先へ](https://www.craftstadium.com/hackathon/rss-hackathon-2025-beyond) - September 7, 2025**
 
 ## Overview
 
@@ -54,7 +60,7 @@ PhotoVoca is a mobile app that helps users learn English vocabulary by simply ta
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/photovoca.git
+git clone https://github.com/rayramy04/photovoca.git
 cd photovoca
 ```
 
@@ -110,10 +116,6 @@ lib/
 - Category-based vocabulary organization
 - Multi-language support
 - Cloud synchronization
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contributing
 
