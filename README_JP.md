@@ -1,6 +1,6 @@
 # PhotoVoca
 
-日本語 | [English](README.md)
+[English](README.md) | 日本語
 
 <p align="center">
   <img src="assets/images/logo.png" alt="PhotoVoca Logo" width="200"/>
