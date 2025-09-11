@@ -39,85 +39,16 @@ PhotoVocaは、日常生活の中で目にする物体を撮影するだけで�
 
 ## 技術スタック
 
-- **フレームワーク**: Flutter 3.8.1+
-- **状態管理**: Riverpod 2.5.1
-- **ルーティング**: go_router 14.3.0
+- **フレームワーク**: Flutter
+- **状態管理**: Riverpod
+- **ルーティング**: go_router
 - **AI/ML**:
-  - Google Generative AI (Gemini) 0.4.7
-  - Google ML Kit Object Detection 0.14.0
-- **カメラ**: camera 0.11.0+
-- **データベース**: Drift (SQLite) 2.21.0
-- **画像処理**: image 4.2.0
+  - Google Generative AI (Gemini)
+  - Google ML Kit Object Detection
+- **カメラ**: camera
+- **データベース**: Drift (SQLite)
+- **画像処理**: image
 
-## セットアップ
-
-### 必要な環境
-- Flutter SDK 3.8.1以上
-- iOS 12.0+ / Android API level 21+
-- Gemini API キー
-
-### インストール手順
-
-1. リポジトリのクローン
-```bash
-git clone https://github.com/rayramy04/photovoca.git
-cd photovoca
-```
-
-2. 環境変数の設定
-`.env`ファイルをプロジェクトルートに作成し、Gemini APIキーを設定
-```
-GEMINI_API_KEY=your_api_key_here
-```
-
-3. 依存関係のインストール
-```bash
-flutter pub get
-```
-
-4. コード生成の実行
-```bash
-flutter pub run build_runner build
-```
-
-5. アプリの起動
-```bash
-flutter run
-```
-
-## プロジェクト構成
-
-```
-lib/
-├── app/              # アプリケーション設定
-│   └── router.dart   # ルーティング設定
-├── features/         # 機能別モジュール
-│   ├── camera/       # カメラ・物体認識機能
-│   ├── home/         # ホーム画面
-│   └── quiz/         # クイズ・フラッシュカード機能
-├── infrastructure/   # インフラ層
-│   └── database/     # データベース関連
-└── main.dart         # エントリーポイント
-```
-
-## 使い方
-
-1. アプリを起動し、ホーム画面から「カメラ」を選択
-2. 学習したい物体をカメラで撮影
-3. 検出された物体から学習対象を選択
-4. AIが生成した英語名と説明文を確認
-5. 「クイズ」モードでフラッシュカード学習を開始
-6. カードをタップして答えを確認し、スワイプで次へ
-
-## 今後の展望
-
-- **音声読み上げ**: リスニング強化のため、認識した単語の音声読み上げ機能を追加
-- **学習履歴・統計**: 学習の進捗を可視化し、モチベーション維持をサポート
-- **複数言語対応**: 英語以外の言語学習にも展開し、グローバルなアプリへ
-- **各種学習サポート機能**:
-  - スキャンされた名詞に関連する動詞をセットでサジェスト
-  - 単語帳機能の補強
-  - カテゴリー別の語彙管理
 
 ## 今後の開発予定
 
