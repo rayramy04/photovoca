@@ -1,5 +1,6 @@
 import 'dart:typed_data';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../../infrastructure/providers/database_providers.dart';
@@ -41,10 +42,21 @@ class _HomePageState extends ConsumerState<HomePage> {
         [];
     return CupertinoPageScaffold(
       backgroundColor: const Color(0xFF0F072C),
-      navigationBar: const CupertinoNavigationBar(
-        backgroundColor: Color(0xFF0F072C),
+      navigationBar: CupertinoNavigationBar(
+        backgroundColor: const Color(0xFF0F072C),
         border: null,
-        middle: Text('PhotoVoca', style: TextStyle(color: CupertinoColors.white, fontSize: 18, fontWeight: FontWeight.w700)),
+        middle: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Image.asset(
+              'assets/images/logo.png',
+              height: 32,
+              width: 32,
+            ),
+            const SizedBox(width: 8),
+            const Text('PhotoVoca', style: TextStyle(color: CupertinoColors.white, fontSize: 18, fontWeight: FontWeight.w700)),
+          ],
+        ),
       ),
       child: SafeArea(
         child: Stack(
